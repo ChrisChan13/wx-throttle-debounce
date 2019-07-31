@@ -1,0 +1,26 @@
+{
+  "name": "wx-throttle-debounce",
+  "version": "1.0.0",
+  "description": "Throttle & Debounce functions for Wechat MiniProgram",
+  "main": "index.js",
+  "miniprogram": "miniprogram_dist",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "wx",
+    "throttle",
+    "debounce"
+  ],
+  "author": "chrischan",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-uglify": "^6.0.2"
+  }
+}
