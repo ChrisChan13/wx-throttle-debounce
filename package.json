@@ -1,12 +1,13 @@
 {
   "name": "wx-throttle-debounce",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Throttle & Debounce functions for Wechat MiniProgram",
   "main": "index.js",
   "miniprogram": "miniprogram_dist",
   "scripts": {
     "build": "rollup -c"
   },
+  "repository": "https://github.com/ChrisChan13/wx-throttle-debounce",
   "keywords": [
     "wx",
     "throttle",
