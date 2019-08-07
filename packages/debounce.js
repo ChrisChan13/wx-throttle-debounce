@@ -135,4 +135,4 @@ const debounce = (func, wait = 0, options = {}) => {
   return debounced;
 };
 
-module.exports = debounce;
+export default debounce;

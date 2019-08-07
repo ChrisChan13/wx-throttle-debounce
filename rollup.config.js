@@ -4,7 +4,7 @@ import { uglify } from 'rollup-plugin-uglify';
 export default {
   input: 'index.js',
   output: {
-    file: 'miniprogram_dist/index.js',
+    file: 'dist/index.js',
     format: 'cjs',
   },
   plugins: [

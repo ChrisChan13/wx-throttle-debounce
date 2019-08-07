@@ -32,4 +32,4 @@ const throttle = (func, wait = 0, options = {}) => {
   });
 };
 
-module.exports = throttle;
+export default throttle;
